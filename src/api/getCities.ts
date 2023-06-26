@@ -17,7 +17,7 @@ export type City = {
   population: number;
 };
 
-const collator = new Intl.Collator('en', {  sensitivity: 'base' });
+const collator = new Intl.Collator('en', { sensitivity: 'base' });
 
 export const getCities = async ({
   limit = 10000,
