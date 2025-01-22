@@ -44,30 +44,30 @@ In this exercise, I'll be focusing on these implementation:
 ### Search
 * [x] :star: **P0**: As a user, I want to search for cities by city name
 * [x] :star: **P0**: As a user, I want to search for cities by country name
-* [ ] :star: **P0**: As a user, I should know when a search is pending
-* [ ] :star: **P0**: As a user, I should know when a search does not match any city
-* [ ] :star: **P0**: As a user, I should know when a search fails (**Note: if I search for 'error', we mimic an error for I :raised_hands:**)
-* [ ] P1: [Performance] As a user, I want search to only kick-in after 150ms since my last change to the search term
+* [x] :star: **P0**: As a user, I should know when a search is pending
+* [x] :star: **P0**: As a user, I should know when a search does not match any city
+* [x] :star: **P0**: As a user, I should know when a search fails (**Note: if I search for 'error', we mimic an error for I :raised_hands:**)
+* [x] P1: [Performance] As a user, I want search to only kick-in after 150ms since my last change to the search term
 
 ### Sorting
-* [ ] :star: **P0**: As a user, I want to to be able to toggle sorting (ascending) the search results by a single column
-* [ ] **P1**: As a user, I want to to be able to toggle between ascending, descending or no sorting of the search results by a single column
-* [ ] **P2**: As a user, I want to to be able to toggle between ascending, descending or no sorting of the search results by multiple columns
+* [x] :star: **P0**: As a user, I want to to be able to toggle sorting (ascending) the search results by a single column
+* [x] **P1**: As a user, I want to to be able to toggle between ascending, descending or no sorting of the search results by a single column
+* [x] **P2**: As a user, I want to to be able to toggle between ascending, descending or no sorting of the search results by multiple columns
 
 ### Pagination
-* [ ] :star: **P0**: As a user, I want to to be able to paginate through search results using a fixed page size (10)
-* [ ] :star: **P0**: As a user, I want to to be able to navigate between result pages
-* [ ] **P2**: As a user, I want to to be able to paginate through search results using a dynamic page size
-* [ ] **P3**: As a user, I want to to be able to go all the way to the first and last pages of the search results
+* [x] :star: **P0**: As a user, I want to to be able to paginate through search results using a fixed page size (10)
+* [x] :star: **P0**: As a user, I want to to be able to navigate between result pages
+* [x] **P2**: As a user, I want to to be able to paginate through search results using a dynamic page size
+* [x] **P3**: As a user, I want to to be able to go all the way to the first and last pages of the search results
 
 ### Accessibility
-* [ ] **P1**: As a user, I want to to be able to navigate through the search results using my keyboard
-* [ ] **P3**: As a user, I want to to be able to use a screen reader to review search results
+* [x] **P1**: As a user, I want to to be able to navigate through the search results using my keyboard
+* [x] **P3**: As a user, I want to to be able to use a screen reader to review search results
 
 ### Design
 
 
-* [ ] :star: **P0**: when user use `<SortableTable>`, its design matches Gusto's default design
-* [ ] **P2**: User can theme the `<SortableTable>` component with my own visual design
-* [ ] **P3**:  User can view the search results on a narrow screen
+* [x] :star: **P0**: when user use `<SortableTable>`, its design matches Gusto's default design
+* [x] **P2**: User can theme the `<SortableTable>` component with my own visual design
+* [x] **P3**:  User can view the search results on a narrow screen
 
